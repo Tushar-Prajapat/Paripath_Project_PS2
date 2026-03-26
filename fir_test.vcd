@@ -1,0 +1,328 @@
+$date
+	Thu Mar 26 18:55:25 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module fir_tb $end
+$var wire 32 ! y_out [31:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$var reg 16 $ x_in [15:0] $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var wire 16 & x_in [15:0] $end
+$var wire 32 ' y_out [31:0] $end
+$var integer 32 ( i [31:0] $end
+$scope begin genblk1[0] $end
+$var parameter 2 ) j $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 * j $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 + j $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 , j $end
+$upscope $end
+$scope begin genblk1[4] $end
+$var parameter 4 - j $end
+$upscope $end
+$scope begin genblk1[5] $end
+$var parameter 4 . j $end
+$upscope $end
+$scope begin genblk1[6] $end
+$var parameter 4 / j $end
+$upscope $end
+$scope begin genblk1[7] $end
+$var parameter 4 0 j $end
+$upscope $end
+$scope begin genblk1[8] $end
+$var parameter 5 1 j $end
+$upscope $end
+$scope begin genblk1[9] $end
+$var parameter 5 2 j $end
+$upscope $end
+$scope begin genblk1[10] $end
+$var parameter 5 3 j $end
+$upscope $end
+$scope begin genblk1[11] $end
+$var parameter 5 4 j $end
+$upscope $end
+$scope begin genblk1[12] $end
+$var parameter 5 5 j $end
+$upscope $end
+$scope begin genblk1[13] $end
+$var parameter 5 6 j $end
+$upscope $end
+$scope begin genblk1[14] $end
+$var parameter 5 7 j $end
+$upscope $end
+$scope begin genblk1[15] $end
+$var parameter 5 8 j $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1111 8
+b1110 7
+b1101 6
+b1100 5
+b1011 4
+b1010 3
+b1001 2
+b1000 1
+b111 0
+b110 /
+b101 .
+b100 -
+b11 ,
+b10 +
+b1 *
+b0 )
+$end
+#0
+$dumpvars
+b10000 (
+b0 '
+b0 &
+bx %
+b0 $
+1#
+0"
+b0 !
+$end
+#5
+b10000 (
+1"
+#10
+0"
+#15
+b10000 (
+1"
+#20
+0"
+b1111101000 $
+b1111101000 &
+b0 %
+0#
+#25
+b11111111111111110101100000001000 !
+b11111111111111110101100000001000 '
+b10000 (
+1"
+#30
+0"
+b1 %
+#35
+b11111111111111001010010010100000 !
+b11111111111111001010010010100000 '
+b10000 (
+1"
+#40
+0"
+b10 %
+#45
+b11111111111101100111001010110000 !
+b11111111111101100111001010110000 '
+b10000 (
+1"
+#50
+0"
+b11 %
+#55
+b11111111111100010001011110011000 !
+b11111111111100010001011110011000 '
+b10000 (
+1"
+#60
+0"
+b100 %
+#65
+b11111111111110110100100011111000 !
+b11111111111110110100100011111000 '
+b10000 (
+1"
+#70
+0"
+b101 %
+#75
+b1010000111101101001000 !
+b1010000111101101001000 '
+b10000 (
+1"
+#80
+0"
+b110 %
+#85
+b100000011010111100111000 !
+b100000011010111100111000 '
+b10000 (
+1"
+#90
+0"
+b111 %
+#95
+b111110011111110000011000 !
+b111110011111110000011000 '
+b10000 (
+1"
+#100
+0"
+b1000 %
+#105
+b1011100100100100011111000 !
+b1011100100100100011111000 '
+b10000 (
+1"
+#110
+0"
+b1001 %
+#115
+b1110010110111110011101000 !
+b1110010110111110011101000 '
+b10000 (
+1"
+#120
+0"
+b1010 %
+#125
+b1111110001010111100111000 !
+b1111110001010111100111000 '
+b10000 (
+1"
+#130
+0"
+b1011 %
+#135
+b10000000101110000010011000 !
+b10000000101110000010011000 '
+b10000 (
+1"
+#140
+0"
+b1100 %
+#145
+b1111111011000010110000000 !
+b1111111011000010110000000 '
+b10000 (
+1"
+#150
+0"
+b1101 %
+#155
+b1111101110101001110010000 !
+b1111101110101001110010000 '
+b10000 (
+1"
+#160
+0"
+b1110 %
+#165
+b1111101001010000000101000 !
+b1111101001010000000101000 '
+b10000 (
+1"
+#170
+0"
+b1111 %
+#175
+b1111100111111100000110000 !
+b1111100111111100000110000 '
+b10000 (
+1"
+#180
+0"
+b10000 %
+#185
+b10000 (
+1"
+#190
+0"
+b10001 %
+#195
+b10000 (
+1"
+#200
+0"
+b10010 %
+#205
+b10000 (
+1"
+#210
+0"
+b10011 %
+#215
+b10000 (
+1"
+#220
+0"
+b10100 %
+#225
+b10000 (
+1"
+#230
+0"
+b10101 %
+#235
+b10000 (
+1"
+#240
+0"
+b10110 %
+#245
+b10000 (
+1"
+#250
+0"
+b10111 %
+#255
+b10000 (
+1"
+#260
+0"
+b11000 %
+#265
+b10000 (
+1"
+#270
+0"
+b11001 %
+#275
+b10000 (
+1"
+#280
+0"
+b11010 %
+#285
+b10000 (
+1"
+#290
+0"
+b11011 %
+#295
+b10000 (
+1"
+#300
+0"
+b11100 %
+#305
+b10000 (
+1"
+#310
+0"
+b11101 %
+#315
+b10000 (
+1"
+#320
+0"
+b11110 %
